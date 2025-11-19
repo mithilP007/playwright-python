@@ -9,7 +9,7 @@ authors = [
     {name = "Microsoft Corporation"}
 ]
 readme = "README.md"
-license = "Apache-2.0"
+license = {text = "Apache-2.0"}
 dynamic = ["version"]
 requires-python = ">=3.9"
 # Please when changing dependencies run the following commands to update requirements.txt:
@@ -96,3 +96,4 @@ reportOptionalSubscript = false
 reportUnboundVariable = false
 strictParameterNoneValue = false
 reportIncompatibleVariableOverride = false
+
